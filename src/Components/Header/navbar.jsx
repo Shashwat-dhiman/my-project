@@ -10,8 +10,8 @@ const Navbar = () => {
     const [lang, setLang] = useState(languages[0]);
     return (
         <nav className="w-full bg-[#1e40af] text-white">
-            <div className="max-w-4xl mx-auto px-4">
-                <ul className="hidden md:flex items-center justify-between gap-6 text-[14px]">
+            <div className="max-w-6xl mx-auto px-4">
+                <ul className="hidden md:flex items-center justify-between gap-6 text-[18px]">
                     <li
                         className="relative cursor-pointer border-b-2 border-transparent hover:border-white hover:text-gray-300 py-1 transition-colors duration-200"
                         onMouseEnter={() => menuEnter('about')}
